@@ -4,10 +4,10 @@
 os lados de um triângulo. Caso positivo, diga o tipo do triângulo: equilátero, isóceles ou escaleno. */
 
 int main(void){
-    float A, B, C;
+    int A, B, C;
 
     printf("Informe os valores dos lados do triangulo (A, B, C): ");
-    scanf("%f %f %f", &A, &B, &C);
+    scanf("%d %d %d", &A, &B, &C);
 
     if ((A<(B+C)) && (B<(C+A)) && (C<(A+B))){
         printf("Forma um triangulo \\o/\n");
